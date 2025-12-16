@@ -27,11 +27,11 @@ We are not able to acchive these 3 points.
   - master recive write reqs
   - master copy logs to slave
   - master wait, till all slaves return a state that complite
-  - **Problem with this one is : if one slave failed, master sucks, and the whole cluster is not available, in the end, high consistency but low Availability. **
+  - **Problem with this one is : if one slave failed, master sucks, and the whole cluster is not available, in the end, high consistency but low Availability**
 
 - 多数派
   - each time perform a write, make sure to write in greater than n/2 nodes, and read from greater than n/2 nodes.
-  - **Problem with this one is : in a high concurrency condition, it cannot garentee the correctness of the cluster, for the order matters. **
+  - **Problem with this one is : in a high concurrency condition, it cannot garentee the correctness of the cluster, for the order matters**
 
 - Paxos
   - basic paxos
