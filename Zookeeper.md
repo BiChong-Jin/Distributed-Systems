@@ -31,7 +31,7 @@ We are not able to acchive these 3 points.
 
 - 多数派
   - each time perform a write, make sure to write in greater than n/2 nodes, and read from greater than n/2 nodes.
-  - **Problem with this one is : in a high concurrency condition, it cannot garentee the correctness of the cluster, for the order matters.**
+  - **Problem with this one is : in a high concurrency condition, it cannot garentee the correctness of the cluster, for the order matters. **
 
 - Paxos
   - basic paxos
