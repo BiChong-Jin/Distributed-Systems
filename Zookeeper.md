@@ -1,8 +1,9 @@
-**_ Zookeeper _**
-** CAP Theorem **
+# Zookeeper
 
-** Consistency **
+## CAP Theorem
 
-** Availability **
+## Consistency
 
-** Partition Tolerance **
+## Availability
+
+## Partition Tolerance
