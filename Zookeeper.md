@@ -11,7 +11,9 @@ We are not able to acchive these 3 points.
 - Availability
 
 - Partition Tolerance
-  - For example, two area, US and China, when the connection between them crashed, they still able seperately.
+  - For example, two area, US and China, when the connection between them crashed, although they are available in US and China
+    seperatyle, but **Partition** happend, and the term Partition Tolerance is about how the system behave when partition happend,
+    always, you have to give up consistency or Availability.
 
 ### Consistency model
 
